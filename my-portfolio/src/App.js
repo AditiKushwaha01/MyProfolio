@@ -7,20 +7,43 @@ import Footer from "./components/footer";
 import CustomCursor from "./components/cursor";
 import Project from "./components/Project";
 import About from "./components/About/About";
+import EducationSection from "./components/Education";
+import Experience from "./components/experience"; // assuming this is your experience component
 
 function App() {
   return (
     <Router>
       <CustomCursor />
       <Navbar />
+
       <Routes>
-        <Route path="/" element={<HeroSection />} />
-        <Route path="/about" element={<About />} />
+        {/* Homepage */}
+        <Route
+          path="/"
+          element={
+            <>
+              <HeroSection />
+              <About />
+              <Project />
+            </>
+          }
+        />
+
+        {/* About Page */}
+        <Route
+          path="/about"
+          element={
+            <>
+              <About />
+              <EducationSection />
+              <Experience />
+            </>
+          }
+        />
       </Routes>
-      
-      <Project />
-      <Footer/>
-      </Router>
+
+      <Footer /> {/* Always shown */}
+    </Router>
   );
 }
 
