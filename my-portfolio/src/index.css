@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* cursor*/
+body {
+    cursor: none;
+  }
+  
+  .custom-cursor {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    position: fixed;
+    pointer-events: none;
+    z-index: 9999;
+    background-color: black;
+    mix-blend-mode: normal;
+    transform: translate(-50%, -50%);
+    transition: transform 0.15s ease;
+  }
+  
+  .custom-cursor.clicked {
+    transform: translate(-50%, -50%) scale(0.6);
+  }
+  
+  
