@@ -29,8 +29,6 @@ function App() {
               <HeroSection />
               <About />
               <Project />
-              <Achievement />
-             <Work />
             </>
           }
         />
