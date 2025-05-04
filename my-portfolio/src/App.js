@@ -12,6 +12,7 @@ import Experience from "./components/experience";
 import Achievement from "./components/Achievement.jsx";
 import Certificate from "./components/Certificate.jsx";
 import Contact from "./components/Contact.jsx";
+import Work from "./components/WorkSection.jsx";
 
 function App() {
   return (
@@ -29,11 +30,19 @@ function App() {
               <About />
               <Project />
               <Achievement />
-             
+             <Work />
             </>
           }
         />
-
+{/* work section*/}
+<Route
+          path="/work"
+          element={
+            <>
+             <Work />
+            </>
+          }
+        />
         {/* About Page */}
         <Route
           path="/about"
@@ -42,6 +51,7 @@ function App() {
               <About />
               <EducationSection />
               <Experience />
+              <Achievement />
               <Certificate />
             </>
           }
