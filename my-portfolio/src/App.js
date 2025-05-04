@@ -11,7 +11,7 @@ import EducationSection from "./components/Education";
 import Experience from "./components/experience";
 import Achievement from "./components/Achievement.jsx";
 import Certificate from "./components/Certificate.jsx";
-
+import Contact from "./components/Contact.jsx";
 
 function App() {
   return (
@@ -45,6 +45,14 @@ function App() {
               <Certificate />
             </>
           }
+        />
+        <Route
+        path="/contact"
+        element={
+          <>
+          <Contact />
+          </>
+        }
         />
       </Routes>
 

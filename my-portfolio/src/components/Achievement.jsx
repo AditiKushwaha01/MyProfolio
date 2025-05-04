@@ -1,5 +1,5 @@
 import React from 'react';
-import Interest from './Interest'; // Corrected import
+import Interest from './Interest'; 
 import 'keen-slider/keen-slider.min.css';
 
 const items = [
