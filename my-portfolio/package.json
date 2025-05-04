@@ -10,6 +10,7 @@
     "aos": "^2.3.4",
     "frame": "^1.0.0-alpha.2",
     "framer-motion": "^12.9.4",
+    "keen-slider": "^6.8.6",
     "lucide-react": "^0.507.0",
     "motion": "^12.4.7",
     "react": "^19.0.0",

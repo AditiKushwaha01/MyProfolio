@@ -6,9 +6,12 @@ import HeroSection from "./components/HeroSection";
 import Footer from "./components/footer";
 import CustomCursor from "./components/cursor";
 import Project from "./components/Project";
-import About from "./components/About/About";
+import About from "./components/about/About.jsx";
 import EducationSection from "./components/Education";
-import Experience from "./components/experience"; // assuming this is your experience component
+import Experience from "./components/experience";
+import Achievement from "./components/Achievement.jsx";
+import Certificate from "./components/Certificate.jsx";
+
 
 function App() {
   return (
@@ -25,6 +28,8 @@ function App() {
               <HeroSection />
               <About />
               <Project />
+              <Achievement />
+             
             </>
           }
         />
@@ -37,6 +42,7 @@ function App() {
               <About />
               <EducationSection />
               <Experience />
+              <Certificate />
             </>
           }
         />

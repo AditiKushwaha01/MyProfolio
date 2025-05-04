@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion"; // <-- added AnimatePresence
-import { Menu, X } from "lucide-react";
+
 import { Link } from "react-router-dom";
 
 const Navbar = () => {
@@ -44,9 +44,9 @@ const Navbar = () => {
               animate={{ opacity: 1, y: 0 }}
               exit={{ opacity: 0, y: -10 }}
             >
-              <span className="hover:text-gray-600 cursor-none">Works</span>
-              <span className="hover:text-gray-600 cursor-none">About</span>
-              <span className="hover:text-gray-600 cursor-none">Contact</span>
+              <Link to="/work" className="hover:text-gray-600 cursor-none">Works</Link>
+              <Link to="/about" className="hover:text-gray-600 cursor-none">About</Link>
+              <Link to="/contact" className="hover:text-gray-600 cursor-none">Contact</Link>
             </motion.div>
           )}
         </AnimatePresence>

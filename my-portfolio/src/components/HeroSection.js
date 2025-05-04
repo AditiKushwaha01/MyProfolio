@@ -1,6 +1,7 @@
 import React from "react";
 import profileImg from "../assets/images/pasport sizeportfolio.jpg"; // Replace with your image
 
+
 const HeroSection = () => {
   return (
     <section className="flex flex-col md:flex-row items-center justify-between px-12 py-12 pt-24 bg-gray-50">
