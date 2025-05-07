@@ -4,6 +4,7 @@ import { SiRedux, SiFirebase, SiJavascript, SiHtml5, SiCss3 } from "react-icons/
 import { FaJava } from "react-icons/fa";
 import { FiDownload } from "react-icons/fi";
 import SelfPic from '../../assets/images/pasport sizeportfolio.jpg'; // Use your actual image path
+import resume from './aditi_resume(7).pdf';
 
 const About = () => {
   return (
@@ -24,14 +25,14 @@ const About = () => {
 
           {/* Social Icons and Resume */}
           <div className="flex gap-6 mt-4 text-2xl text-gray-700 ">
-            <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer" title="GitHub">
+            <a href="https://github.com/AditiKushwaha01" rel="noopener noreferrer" title="GitHub">
               <FaGithub className="hover:text-black transition-colors" />
             </a>
-            <a href="https://linkedin.com/in/yourprofile" target="_blank" rel="noopener noreferrer" title="LinkedIn">
+            <a href="www.linkedin.com/in/aditi-kushwaha" target="_blank" rel="noopener noreferrer" title="LinkedIn">
               <FaLinkedin className="hover:text-black transition-colors" />
             </a>
             <a
-              href="/path-to-resume.pdf"
+              href={resume}
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-1 text-sm font-medium bg-gray-700 text-white px-4 py-2 rounded-full hover:bg-indigo-700 transition-colors"
