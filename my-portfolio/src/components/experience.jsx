@@ -2,39 +2,26 @@ import { motion } from "framer-motion";
 
 const experiences = [
   {
-    company: "Cloud Nexus Technologies",
-    role: "Senior Frontend Engineer (React/Next.js)",
-    location: "Seattle, WA",
-    period: "Jan 2022 – Present",
+    company: "CodTech IT SOLUTIONS",
+    role: "Java Programmer(Java)",
+    location: "Lucknow (Remote)",
+    period: "Sep-Oct 2024 ",
     points: [
-      "Migrated legacy platform to Next.js, boosting performance and SEO.",
-      "Built scalable UIs using React, TypeScript, Tailwind CSS.",
-      "Integrated GraphQL (Apollo Client) for dynamic data fetching.",
-      "Led responsive and accessible design implementations (WCAG 2.1)."
+      "Developedamulti‑threaded backend in Java, improving scalability and handling 50% more user traffic.",
+      "DesignedaJava‑basedportfolio website, boosting user engagement by 25% and enhancing scalability",
+      "Refactored database queries and optimized caching, cutting response time by 15%"
     ]
   },
   {
-    company: "AI Solutions Lab",
-    role: "Machine Learning Web Engineer",
+    company: "CodeAlpha",
+    role: "Web Development",
     location: "Remote",
-    period: "Jul 2019 – Dec 2021",
+    period: "Aug 2023",
     points: [
-      "Visualized real-time AI outputs using D3.js and TensorFlow.js.",
-      "Built a cloud interface for model deployment with AWS Lambda & API Gateway.",
-      "Added AI explainability layers to enhance trust and understanding.",
-      "Streamlined CI/CD with Docker & GitHub Actions."
-    ]
-  },
-  {
-    company: "TechCraft Digital",
-    role: "Full-Stack Developer",
-    location: "Austin, TX",
-    period: "Mar 2016 – Jun 2019",
-    points: [
-      "Developed 40+ apps using Node.js, Express, MongoDB.",
-      "Created component libraries in Vue.js for internal tooling.",
-      "Implemented testing with Cypress and Jest.",
-      "Mentored junior devs and led regular code reviews."
+      "ManagedandcustomizedWordPresssites, enhancing user experience by 30% with customfeatures and responsive layouts.",
+      "Built interactive survey forms in HTML, CSS, and JavaScript, raising completion rates by 20%.",
+      "Collaborated with the design team to create responsive, mobile‑friendly interfaces that increased website accessibility.",
+      "Optimized pageloadtimeswith lazy loading, boosting user retention by 20% on mobile and desktop"
     ]
   }
 ];
