@@ -4,7 +4,7 @@ import { SiRedux, SiFirebase, SiJavascript, SiHtml5, SiCss3 } from "react-icons/
 import { FaJava } from "react-icons/fa";
 import { FiDownload } from "react-icons/fi";
 import SelfPic from '../../assets/images/pasport sizeportfolio.jpg'; // Use your actual image path
-import resume from './aditi_resume(7).pdf';
+import resume from '../../assets/aditi_resume(7).pdf';
 
 const About = () => {
   return (

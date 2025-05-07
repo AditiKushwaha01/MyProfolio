@@ -24,7 +24,7 @@ const certifications = [
     title: 'Data Structure and Algorithms Using Java ',
     issuer: 'NPTEL',
     year: '2023',
-    link: '#'
+    link: 'https://drive.google.com/file/d/1YhOViJRY9ex868z1cd46Dj5q2Hiv_4fz/view'
   }
 ];
 
