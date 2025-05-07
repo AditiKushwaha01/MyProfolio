@@ -9,13 +9,19 @@ const projects = [
     name: 'Portfolio Website',
     description: 'A personal portfolio to showcase my projects and resume.',
     techStack: ['React', 'Tailwind CSS', 'Framer Motion'],
-    link: 'https://github.com/yourusername/portfolio',
+    link: 'https://github.com/AditiKushwaha01/MyProfolio',
   },
   {
-    name: 'Weather App',
-    description: 'Real-time weather app using OpenWeatherMap API.',
-    techStack: ['HTML5', 'CSS3', 'JavaScript', 'API'],
-    link: 'https://yourweatherapp.live',
+    name: 'FoodSathi',
+    description: 'A real time Application which acts as a bridge between needy and Food wastage.',
+    techStack: ['HTML5', 'CSS3', 'JavaScript','React.js', 'API'],
+    link: 'https://github.com/AditiKushwaha01/foodsathi',
+  },
+  {
+    name: 'Lets Thango: Long Meet',
+    description: 'A real time video conferencing Application which acts as a bridge the flow of communication between couples',
+    techStack: ['React.js','Node.js', 'API'],
+    link: 'https://github.com/AditiKushwaha01/Lets_Thango-',
   },
   // Add more projects here
 ];

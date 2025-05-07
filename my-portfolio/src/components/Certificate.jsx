@@ -12,16 +12,16 @@ const certifications = [
     title: ' Master Java Programming',
     issuer: 'GeeksForGeeks',
     year: '2024',
-    link: '#'
+    link: 'https://www.linkedin.com/in/aditi-kushwaha/details/certifications/1714670562410/single-media-viewer/?profileId=ACoAAD5_IqkB3FPTtbFFO3BfpzjcjWK_brnvtPc'
   },
   {
     title: ' Introduction to Machine Learning',
     issuer: 'NPTeL',
     year: '2024',
-    link: '#'
+    link: 'https://www.linkedin.com/in/aditi-kushwaha/details/certifications/1715629768374/single-media-viewer/?profileId=ACoAAD5_IqkB3FPTtbFFO3BfpzjcjWK_brnvtPc'
   },
   {
-    title: 'Introduction to Java Programming',
+    title: 'Data Structure and Algorithms Using Java ',
     issuer: 'NPTEL',
     year: '2023',
     link: '#'

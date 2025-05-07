@@ -9,7 +9,7 @@ const Footer = () => {
                 <div className="pb-9">
                     <h1 className="font-semibold text-3xl">
                         <a
-                            href="#"
+                            href="/contact"
                             className="relative inline-flex items-center group">
                             {/* Dot */}
                             <span className="mr-2 text-sm opacity-0 group-hover:opacity-100 transition-opacity duration-300">
@@ -94,7 +94,7 @@ const Footer = () => {
                             {["Github", "LinkedIn", "LeetCode", "GeeksforGeeks"].map((item) => (
                                 <li key={item}>
                                     <a
-                                        href="#"
+                                        href="www.linkedin.com/in/aditi-kushwaha"
                                         className="group inline-flex items-center relative"
                                     >
                                         {/* Dot */}
