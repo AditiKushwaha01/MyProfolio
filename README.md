@@ -26,21 +26,34 @@ I’m Aditi Kushwaha, a final-year BTech Computer Science student. I thrive on b
 ---
 
 ## 📁 Project Structure
-src/
-├── assets/
-├── components/
-│ ├── navbar/
-│ ├── footer/
-│ ├── journeyCount/
-│ ├── dashboard/
-│ └── ...
-├── pages/
-│ ├── Home.jsx
-│ ├── About.jsx
-│ ├── Projects.jsx
-│ └── Contact.jsx
-├── App.js
-└── index.js
+## 📁 Project Structure
+
+my-portfolio/
+├── public/
+├── src/
+│   ├── assets/                    # Images, icons, and media
+│   ├── components/
+│   │   ├── about/
+│   │   │   ├── About.jsx
+│   │   │   ├── Achievement.jsx
+│   │   │   ├── Certificate.jsx
+│   │   │   ├── Education.jsx
+│   │   │   ├── experience.jsx
+│   │   │   ├── Interest.jsx
+│   │   │   └── WorkSection.jsx
+│   │   ├── Contact.jsx
+│   │   ├── cursor.jsx
+│   │   ├── footer.jsx
+│   │   ├── HeroSection.js
+│   │   ├── navbar.jsx
+│   │   └── Project.jsx
+│   ├── App.js
+│   ├── index.css
+│   └── index.js
+├── .gitignore
+├── package-lock.json
+└── package.json
+
 
 
 ---
