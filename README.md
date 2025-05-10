@@ -71,7 +71,7 @@ git clone https://github.com/AditiKushwaha01/MyProfolio
 cd portfolio
 npm install
 npm start
-
+```
 ## 📬 Contact Me
 Let’s connect!
 
