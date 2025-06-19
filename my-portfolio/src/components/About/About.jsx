@@ -1,10 +1,11 @@
 import React from "react";
 import { FaReact, FaNodeJs, FaPython, FaGit, FaBootstrap, FaGithub, FaLinkedin } from "react-icons/fa";
-import { SiRedux, SiFirebase, SiJavascript, SiHtml5, SiCss3 } from "react-icons/si";
+import { SiApachemaven, SiRedux,SiHibernate, SiFirebase, SiJavascript, SiHtml5, SiCss3 } from "react-icons/si";
+import { BiLogoSpringBoot } from "react-icons/bi";
 import { FaJava } from "react-icons/fa";
 import { FiDownload } from "react-icons/fi";
 import SelfPic from '../../assets/images/pasport sizeportfolio.jpg'; // Use your actual image path
-import resume from '../../assets/aditi_resume(7).pdf';
+import resume from '../../assets/aditi_resume3.pdf';
 
 const About = () => {
   return (
@@ -25,10 +26,10 @@ const About = () => {
 
           {/* Social Icons and Resume */}
           <div className="flex gap-6 mt-4 text-2xl text-gray-700 ">
-            <a href="https://github.com/AditiKushwaha01" rel="noopener noreferrer" title="GitHub">
+            <a href="https://github.com/AditiKushwaha01/" target="_blank" rel="noopener noreferrer" title="GitHub">
               <FaGithub className="hover:text-black transition-colors" />
             </a>
-            <a href="www.linkedin.com/in/aditi-kushwaha" target="_blank" rel="noopener noreferrer" title="LinkedIn">
+            <a href="https://www.linkedin.com/in/aditi-kushwaha/" target="_blank" rel="noopener noreferrer" title="LinkedIn">
               <FaLinkedin className="hover:text-black transition-colors" />
             </a>
             <a
@@ -112,6 +113,14 @@ const About = () => {
                 <FaJava title="Java" />
                 <span className="text-sm mt-1">Java</span>
               </div>
+              <div className="flex flex-col items-center">
+                <BiLogoSpringBoot title="springboot" />
+                <span className="text-sm mt-1">Spring Boot</span>
+              </div>
+              <div className="flex flex-col items-center">
+                <SiHibernate title="hibernate" />
+                <span className="text-sm mt-1">Hibernate</span>
+              </div>
             </div>
           </div>
 
@@ -130,6 +139,10 @@ const About = () => {
               <div className="flex flex-col items-center">
                 <SiFirebase title="Firebase" />
                 <span className="text-sm mt-1">Firebase</span>
+              </div>
+              <div className="flex flex-col items-center">
+                <SiApachemaven title="maven" />
+                <span className="text-sm mt-1">maven</span>
               </div>
             </div>
           </div>

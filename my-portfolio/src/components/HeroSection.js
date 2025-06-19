@@ -5,7 +5,7 @@ import profile from "../assets/images/i3.jpg";
 
 const HeroSection = () => {
   const [copied, setCopied] = useState(false);
-  const email = "aditi.kushwaha@email.com";
+  const email = "aditi.kushwaha@gmail.com";
 
   const handleCopy = () => {
     navigator.clipboard.writeText(email);
