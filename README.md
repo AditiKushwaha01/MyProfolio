@@ -26,7 +26,6 @@ I’m Aditi Kushwaha, a final-year BTech Computer Science student. I thrive on b
 ---
 
 ## 📁 Project Structure
-## 📁 Project Structure
 
 my-portfolio/
 ├── public/
