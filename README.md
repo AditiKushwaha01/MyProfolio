@@ -12,7 +12,7 @@ I’m Aditi Kushwaha, a final-year BTech Computer Science student. I thrive on b
 
 ## 🌐 Live Website
 
-🔗 [Visit My Portfolio](https://monumental-faun-506ec2.netlify.app/)
+🔗 [Visit My Portfolio](https://aditikushwaha01.github.io/MyProfolio/)
 
 ---
 
