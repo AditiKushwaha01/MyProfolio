@@ -1,4 +1,6 @@
 import React from "react";
+import { Link } from "react-router-dom";
+
 
 const Footer = () => {
     return (
@@ -44,12 +46,17 @@ const Footer = () => {
                     <div>
                         <h4 className="text-gray-600 mb-2 pl-4">Menu</h4>
                         <ul className="list-none space-y-1">
-                            {["Home", "Work", "About", "Contact"].map((item) => (
-                                <li key={item}>
-                                    <a
-                                        href={`#${item.toLowerCase()}`}
-                                        className="group inline-flex items-center relative"
-                                    >
+                             {[
+            { name: "Home", url: "/" },
+            { name: "Work", url: "/work" },
+            { name: "About", url: "/about" },
+            { name: "Contact", url: "/contact" }
+        ].map((item) => (
+            <li key={item.name}>
+                <Link
+                    to={item.url}  // Use "to" instead of href
+                    className="group inline-flex items-center relative"
+                >
                                         {/* Dot */}
                                         <span className="mr-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300 text-sm">
                                             •
@@ -57,9 +64,9 @@ const Footer = () => {
 
                                         {/* Text */}
                                         <span className="transition-transform duration-300 group-hover:translate-x-1">
-                                            {item}
+                                            {item.name}
                                         </span>
-                                    </a>
+                </Link>
                                 </li>
                             ))}
                         </ul>
@@ -103,7 +110,7 @@ const Footer = () => {
                                         </span>
 
                                         {/* Text */}
-                                        <span className="transition-transform duration-300 group-hover:translate-x-1">
+                                       <span className="transition-transform duration-300 group-hover:translate-x-1">
                                             {item}
                                         </span>
                                     </a>

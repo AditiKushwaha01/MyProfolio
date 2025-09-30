@@ -73,10 +73,10 @@ const ContactPage = () => {
           <div>
             <h2 className="text-gray-600 font-semibold">Socials</h2>
             <ul className="space-y-1 text-gray-800">
-              <li><a href="www.linkedin.com/in/aditi-kushwaha">LinkedIn</a></li>
-              <li><a href="https://github.com/AditiKushwaha01">Github</a></li>
-              <li><a href="https://www.geeksforgeeks.org/user/aditikmedk/">GeekForGeeks</a></li>
-              <li><a href="https://leetcode.com/u/lead_adi/">LeetCode</a></li>
+              <li><a href="https://www.linkedin.com/in/aditi-kushwaha/" target='blank'>LinkedIn</a></li>
+              <li><a href="https://github.com/AditiKushwaha01" target='blank'>Github</a></li>
+              <li><a href="https://www.geeksforgeeks.org/user/aditikmedk/" target='blank'>GeekForGeeks</a></li>
+              <li><a href="https://leetcode.com/u/lead_adi/" target='blank'>LeetCode</a></li>
             </ul>
           </div>
         </div>
