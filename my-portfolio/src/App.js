@@ -16,7 +16,7 @@ import Work from "./components/WorkSection.jsx";
 
 function App() {
   return (
-    <Router>
+    <Router basename="/MyProfolio">
       <CustomCursor />
       <Navbar />
 
