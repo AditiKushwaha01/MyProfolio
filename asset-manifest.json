@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/MyProfolio/static/css/main.604f17d3.css",
+    "main.js": "/MyProfolio/static/js/main.0389a17a.js",
+    "static/media/work.png": "/MyProfolio/static/media/work.258c9be833deb30f73aa.png",
+    "static/media/image.png": "/MyProfolio/static/media/image.f64e202e97ab4b7e3440.png",
+    "static/media/i2.jpg": "/MyProfolio/static/media/i2.98b10812111a29558247.jpg",
+    "static/media/pasport sizeportfolio.jpg": "/MyProfolio/static/media/pasport sizeportfolio.6280882408ef3b37b66c.jpg",
+    "static/media/long meet.webp": "/MyProfolio/static/media/long meet.6f7635bcc07a2d4a1ea5.webp",
+    "static/media/aditi_resume3.pdf": "/MyProfolio/static/media/aditi_resume3.19453baea42d61e3fd9d.pdf",
+    "static/media/i5.jpg": "/MyProfolio/static/media/i5.54151a5de3054251d69c.jpg",
+    "static/media/i4.jpg": "/MyProfolio/static/media/i4.b9cee68d1d2b74d9e084.jpg",
+    "static/media/i1.jpg": "/MyProfolio/static/media/i1.d8fec2091384eb58cdb7.jpg",
+    "static/media/profile.avif": "/MyProfolio/static/media/profile.5782b8c6580d98abc533.avif",
+    "static/media/i3.jpg": "/MyProfolio/static/media/i3.fe645d04db54aedd8548.jpg",
+    "index.html": "/MyProfolio/index.html",
+    "main.604f17d3.css.map": "/MyProfolio/static/css/main.604f17d3.css.map",
+    "main.0389a17a.js.map": "/MyProfolio/static/js/main.0389a17a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.604f17d3.css",
+    "static/js/main.0389a17a.js"
+  ]
+}
