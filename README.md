@@ -6,7 +6,7 @@ Welcome to my personal portfolio! This website is a showcase of my journey as a 
 
 ## 👩‍💻 About Me
 
-I’m Aditi Kushwaha, a final-year BTech Computer Science student. I thrive on building practical solutions to real-world problems—whether it’s creating a food redistribution platform or an AI guide app. My strengths lie in Java, backend development, and full-stack web projects. I’m also passionate about sustainability, teamwork, and exploring how technology can empower communities.
+I’m Aditi Kushwaha, BTech Computer Science graduate. I thrive on building practical solutions to real-world problems—whether it’s creating a food redistribution platform or an AI guide app. My strengths lie in Java, backend development, and full-stack web projects. I’m also passionate about sustainability, teamwork, and exploring how technology can empower communities.
 
 ---
 
