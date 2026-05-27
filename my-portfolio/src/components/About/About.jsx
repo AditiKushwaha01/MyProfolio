@@ -5,7 +5,7 @@ import { BiLogoSpringBoot } from "react-icons/bi";
 import { FaJava } from "react-icons/fa";
 import { FiDownload } from "react-icons/fi";
 import SelfPic from '../../assets/images/pasport sizeportfolio.jpg'; // Use your actual image path
-import resume from '../../assets/aditi_resume3.pdf';
+import resume from '../../assets/Aditi_Kushwaha_Resume.pdf';
 
 const About = () => {
   return (
